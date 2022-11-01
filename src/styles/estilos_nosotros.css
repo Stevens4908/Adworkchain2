@@ -1,0 +1,107 @@
+.contain_nosotros{
+
+    position: absolute;
+  transform: translate(0, -90vh);
+  z-index: 1;
+
+}
+
+.titulo_nosotros{
+  color: rgb(255, 255, 255, 0);
+  font-size: 12vw;
+  -webkit-text-stroke: 1px #fff;
+  font-family: LinkStart;
+}
+
+.color_nosotros{
+
+  color: #fff;
+  font-family: LinkStart;
+  font-size: 4.5vw;
+}
+
+
+
+
+ /* VERSION DOS */
+
+ .contain_nosotros_2{
+
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top:0%;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.titulo_nosotros_2{
+color: rgb(255, 255, 255, 0);
+font-size: 8vw;
+-webkit-text-stroke: 1px #fff;
+font-family: LinkStart;
+}
+
+.color_nosotros_2{
+
+color: #fff;
+font-family: LinkStart;
+font-size: 2vw;
+}
+
+/* FIN VERSION DOS */
+
+
+
+
+
+
+@media (min-width:1020px){
+    
+
+  .contain_nosotros{
+
+    position: absolute;
+  transform: translate(0, -107vh);
+  z-index: 1;
+
+}
+  .titulo_nosotros{
+    color: rgb(255, 255, 255, 0);
+    font-size: 8vw;
+    -webkit-text-stroke: 4px #fff;
+    font-family: LinkStart;
+  }
+
+  .color_nosotros{
+    font-size: 1.5vw;
+    color: #fff;
+    font-family: LinkStart;
+  }
+
+/* VERSION DOS DESKTOP */
+
+  
+
+/* FIN VERSION DOS DESKTOP */
+
+  }
+
+
+  @media (min-width:1900px) {
+
+    .contain_nosotros{
+
+      position: absolute;
+    transform: translate(0, -100vh);
+    z-index: 1;
+  
+  }
+
+  }
+
+
+  
+
